@@ -1,0 +1,22 @@
+{
+  "name": "Brook",
+  "description": "Deploy Brook to Heroku.",
+  "keywords": ["Brook"],
+  "env": {
+    "VERSION": {
+       "description": "Brook 版本号",
+       "value": "20200201"
+     },
+     "PASSWORD": {
+       "description": "用于加密传输的密码",
+       "value": "brook321654"
+     },
+     "PORT": {
+       "description": "设置监听端口，该地址是客户端需要连接的端口",
+       "value": "9998"
+     }
+  },
+  "stack": "container",
+  "website": "https://github.com/mk0x57",
+  "repository": "https://github.com/mk0x57/bhdeploy/"
+ }
